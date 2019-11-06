@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5em;
+    background-color: silver;
+}
+h1, h2 {text-align: center}
+header {
+    background: #002266;
+    padding: 5px;
+    text-align: center;
+    font-family: Cursive;
+}
+h1 {
+    color: silver;
+    font-size: 3.5em;
+    letter-spacing: 0.06em;
+
+}
+h2 {
+    font-family: Cooper;
+    color: darkblue;
+    font-size: 20px;
+}
+article, aside, footer {
+    margin-left: 10%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item {
+    font-family: Cooper;
+    color: darkblue;
+}
+aside {font-style: italic}
+span {
+    color: darkblue;
+    font-size: 1.5em;
+    font-family: Arial;
+    font-style: normal;
+}
