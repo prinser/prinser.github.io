@@ -6,7 +6,7 @@ body {
 h1 {text-align: center}
 header, footer {
     background: #002266;
-    padding: 3px;
+    padding: 1px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    box-shadow: 0 3px 10px;
+    box-shadow: 0 2px 10px;
 }
 
 h1 {
@@ -53,9 +53,9 @@ aside {
     font-size: large;
 }
 
-span {
+span, address {
     color: silver;
-    font-size: 1.8em;
+    font-size: x-large;
     font-family: Arial;
     font-style: normal;
 }
@@ -79,8 +79,13 @@ article ul li {
 
 footer {
     color: silver;
-    padding: 20px;
+    padding: 10px;
     font-size: large;
+}
+
+#copyright {
+    font-size: initial;
+    font-style: italic;
 }
 
 @media (max-width: 700px) {
@@ -97,5 +102,9 @@ footer {
 @media (max-width: 400px) {
     h1 {
         font-size: 1.5em;
+    }
+    address {
+        font-size: 21px;
+        /* letter-spacing: 0.8pt; */
     }
 }
