@@ -12,7 +12,7 @@ header, footer {
 }
 h1 {
     color: silver;
-    font-size: 2.5em;
+    font-size: 2.3em;
     letter-spacing: 0.06em;
     line-height: normal;
 
@@ -79,5 +79,10 @@ footer {
     }
     article ul {
         margin: 0 13px;
+    } 
+}
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
     }
 }
