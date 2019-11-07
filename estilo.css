@@ -52,6 +52,11 @@ span {
     font-style: normal;
 }
 
+em {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #002266;
+}
+
 article ul {
     font-size: 1.3em;
     line-height: 1.4em;
