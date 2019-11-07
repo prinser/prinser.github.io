@@ -9,7 +9,7 @@ header {
     background: #002266;
     padding: 5px;
     text-align: center;
-    font-family: Cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: silver;
@@ -31,13 +31,27 @@ img {
     margin-right: auto;
 }
 .item {
-    font-family: Cooper;
-    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(139, 5, 0, 0.938);
+    font-size: x-large;
 }
-aside {font-style: italic}
+aside {
+    font-style: italic;
+}
+
 span {
     color: darkblue;
     font-size: 1.5em;
     font-family: Arial;
     font-style: normal;
+}
+
+article ul {
+    font-size: 1.3em;
+    line-height: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    /* color: rgba(139, 5, 0, 0.938); */
 }
