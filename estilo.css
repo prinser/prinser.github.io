@@ -5,7 +5,7 @@ body {
     background-color: silver;
 }
 h1 {text-align: center}
-header {
+header, footer {
     background: #002266;
     padding: 5px;
     text-align: center;
@@ -22,13 +22,17 @@ h2 {
     color: darkblue;
     font-size: 20px;
 }
-article, aside, footer {
-    margin-left: 10%;
+article, aside {
+    margin-left: 6%;
+}
+
+article p {
+    font-family: cursive;
+    margin-bottom: 30px;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4%;
+    float: right;
 }
 .item {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -37,21 +41,40 @@ img {
 }
 aside {
     font-style: italic;
+    text-align: center;
+    font-size: large;
 }
 
 span {
-    color: darkblue;
-    font-size: 1.5em;
+    color: silver;
+    font-size: 1.8em;
     font-family: Arial;
     font-style: normal;
 }
 
 article ul {
     font-size: 1.3em;
-    line-height: 1.7em;
+    line-height: 1.4em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    list-style-type: square;;
+}
+
+article ul li {
+    padding-bottom: 20px;
 }
 
 footer {
-    /* color: rgba(139, 5, 0, 0.938); */
+    color: silver;
+    padding: 20px;
+    font-size: large;
+}
+
+@media (max-width: 700px) {
+    img {
+        /* display: block; */
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+    }
 }
