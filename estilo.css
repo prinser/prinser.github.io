@@ -3,11 +3,18 @@ body {
     font-family: Arial;
     background-color: silver;
 }
-h1 {text-align: center}
+h1 {
+    text-align: left;
+    padding-left: 2%;
+}
+
+h1 span {
+    font-size: 0.5em;
+}
 header, footer {
     background: #002266;
-    padding: 1px;
     text-align: center;
+    padding: 1px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,9 +25,22 @@ header {
     box-shadow: 0 2px 15px;
 }
 
+#contact {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6em;
+}
+#movil {
+    display: none;
+}
+
 h1 {
     color: silver;
-    font-size: 2.3em;
+    font-size: 2.2em;
     letter-spacing: 0.06em;
 }
 h2 {
@@ -101,12 +121,25 @@ footer {
         margin: 0 13px;
     } 
 }
-@media (max-width: 400px) {
+@media (max-width: 620px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.9em;
     }
     address {
         font-size: 21px;
         /* letter-spacing: 0.8pt; */
+    }
+    h1 {
+        padding-top: 5px;
+        text-align: center;
+        margin: 10px;
+        line-height: 1em;
+    }
+    #contact {
+        display: none;
+    }
+    #movil {
+        display: block;
+        padding-bottom: 0.3em;
     }
 }
