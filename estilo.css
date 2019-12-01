@@ -104,6 +104,10 @@ footer {
     padding: 20px;
     font-size: large;
 }
+footer a:link, header a:link {
+    text-decoration: none;
+    color: inherit;
+}
 
 #copyright {
     font-size: initial;

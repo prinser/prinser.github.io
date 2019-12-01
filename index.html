@@ -14,33 +14,37 @@
 <body>
     <header>
         <h1>PrintersX<br><span>Servicio Técnico Especializado</span></h1>
-        <span id="contact">Teléfono: 924040201<br>Whatsapp: +51924040201<br>&#x2709;printers2016@outlook.com</span>
+        <span id="contact">Teléfono: 924040201<br>Whatsapp: +51924040201<br><a href="mailto:printers2016@outlook.com">printers2016@outlook.com</a></span>
         <span id="movil">&#128241;924040201</span>
     </header>
     <img src="images/Graphtec.jpg" alt="Plotter Graphtec">
     <article>
         <h2 class="item">Servicio a Domicilio:</h2>
         <ul>
-            <li>Especialista en plotters de corte Graphtec</li>
-            <li>Impresoras de Gigantografia Challenger, Infiniti, SID, Wit-Color, Jeti, Refretronic, TitanJet, etc.</li>
+            <li>Especialista en plotters de corte <b>Graphtec</b></li>
+            <li>Impresoras de Gigantografia <b>Challenger, Infiniti, SID, Wit-Color, Jeti, Refretronic, TitanJet,</b> etc.</li>
             <li>Diagnostico y solución de fallas en todo nivel con atencion personalizada y profesional</li>
             <li>Instalacion, Mantenimiento preventivo y correctivo</li>
-            <li>Soporte de plotters corte Chinos: Mimaki, Creation, GCC, Mycut, Vicsign, Foison, etc.</li>
-            <li>Calibracion de cabezales de impresion: Epson, Seiko, Xaar, Spectra, Konica</li>
-            <li>Instalación y configuración de software de producción Maintop, Photoprint, Flexi Sign, Artcut</li>
+            <li>Soporte de plotters corte Chinos: <b>Mimaki, Creation, GCC, Mycut, Vicsign, Foison,</b> etc.</li>
+            <li>Calibracion de cabezales de impresion: <b>Epson, Seiko, Xaar, Spectra, Konica</b></li>
+            <li>Instalación y configuración de software de producción <b>Maintop, Photoprint, Flexi Sign, Artcut</b></li>
             <li>Servicio de capacitación y asesoría.</li>
         </ul>
-        <p>[ Para mayor informacion visite: <a href="http://techprint.epizy.com/">Consultas</a> ]</p>
+        <p>Para mayor informacion visite: <a href="http://techprint.epizy.com/consultas/">Consultas</a></p>
     </article>
     <hr>
     <aside>
-        <p>Mas de <strong>10 años de experiencia</strong> en equipos de indústria publicitaria <br>
+        <p>Mas de <strong>15 años de experiencia</strong> en equipos de indústria publicitaria <br>
             Atención Lima y provincias de todo el Perú.</p>
     </aside>
     <footer>
-        <address>Teléfono: <strong>&#128241;924040201</strong> | Email: printers2016@outlook.com | Lima - Perú<br>
-            <span id="copyright">Copyright &copy; 2019 CJ. Todos Los Derechos Reservados</span></address>
+        <address>Teléfono: <strong>&#128241;924040201</strong> | <a href="mailto:printers2016@outlook.com">&#x2709;&nbsp;printers2016@outlook.com</a> | Lima - Perú<br>
+            <span id="copyright">Copyright &copy; <i id="time"></i> CJ. Todos Los Derechos Reservados</span></address>
     </footer>
+    <script>
+        let updateyear = new Date().getFullYear();
+        document.getElementById('time').innerText = updateyear;
+    </script>
 </body>
 
 </html>
