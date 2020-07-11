@@ -114,6 +114,14 @@ footer a:link, header a:link {
     font-style: italic;
 }
 
+.icon {
+    width: 7%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 0 !important;
+}
+
 @media (max-width: 700px) {
     img {
         /* display: block; */
@@ -123,7 +131,10 @@ footer a:link, header a:link {
     }
     article ul {
         margin: 0 13px;
-    } 
+    }
+    .icon {
+        width: 10%;
+    }
 }
 @media (max-width: 620px) {
     h1 {
@@ -145,5 +156,8 @@ footer a:link, header a:link {
     #movil {
         display: block;
         padding-bottom: 0.3em;
+    }
+    .icon {
+        width: 20%;
     }
 }
