@@ -119,6 +119,9 @@ footer a:link, header a:link {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    box-shadow: 1px 1px 5px rgb(75, 75, 75);
+    /* opacity: 50%; */
+    border-radius: 15px;
     margin: 0 !important;
 }
 
@@ -131,9 +134,6 @@ footer a:link, header a:link {
     }
     article ul {
         margin: 0 13px;
-    }
-    .icon {
-        width: 10%;
     }
 }
 @media (max-width: 620px) {
