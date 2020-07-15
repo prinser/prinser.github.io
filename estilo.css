@@ -27,9 +27,9 @@ header {
 
 #contact {
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 0;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align: left;
     padding: 20px;
     line-height: 1.6em;
