@@ -125,9 +125,9 @@ footer a:link, header a:link {
     margin: 0 !important;
 }
 
-.icon:active {
+/* .icon:active {
     box-shadow: none;
-}
+} */
 
 @media (max-width: 700px) {
     img {
