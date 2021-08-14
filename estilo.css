@@ -145,7 +145,7 @@ footer a:link, header a:link {
         font-size: 1.9em;
     }
     address {
-        font-size: 21px;
+        font-size: 20px;
         /* letter-spacing: 0.8pt; */
     }
     h1 {
@@ -163,5 +163,8 @@ footer a:link, header a:link {
     }
     .icon {
         width: 20%;
+    }
+    .icon {
+        width: 60px;
     }
 }
