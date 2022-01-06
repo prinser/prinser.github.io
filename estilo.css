@@ -138,7 +138,12 @@ footer a:link, header a:link {
 /* .icon:active {
     box-shadow: none;
 } */
-
+@media (max-width: 1000px){
+    .icon {
+        /* width: 60px; */
+        bottom: 80px;
+    }
+}
 @media (max-width: 700px) {
     img {
         /* display: block; */
