@@ -1,2 +1,2 @@
-# Printersx
-*Web Page Project for printersx.epizy.com*
+# Prinser
+*Web Page Project for prinser.github.io*
